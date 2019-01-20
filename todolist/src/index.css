@@ -1,0 +1,91 @@
+*{
+  box-sizing: border-box  
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #5352bf
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.text-center{
+  text-align: center;
+  color: #fff
+}
+
+.container{
+  width: 60%;
+  margin:10% auto
+}
+
+.listitems{
+  background: #fff
+}
+
+.p{
+  margin: 0;
+  text-align: center;
+  padding: 10px 0;
+  text-align: center;
+  background: #fff
+}
+
+.listitems span, .name, .age, .action{
+  display: inline-block; 
+  text-align: center;
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #ddd
+
+  
+}
+
+.listitems .name-title,
+.listitems .age-title,
+.listitems .action-title{
+  background: #34b0f5;
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+  border: 1px solid #fff
+
+}
+.listitems .name-title,
+ .name, #name{
+  width: 50%
+}
+.listitems .age-title,
+.age, #age{
+  width: 35%
+}
+.listitems .action-title,
+.action, .action-btn {
+  width: 15%
+} 
+.action-btn {
+  background: #34b0f5;
+  color: #fff;  
+} 
+input{
+  padding:10px
+}
+input::placeholder{
+  text-align: center
+}
+.action:hover{
+  cursor: pointer;
+}
+
+.action{
+  color: #f00
+}
